@@ -1,0 +1,80 @@
+.MyBookingsTable {
+  width: 100%;
+}
+.MyBookingsTable .Bottom {
+  margin-top: 30px;
+}
+.MyBookingsTable .Bottom table {
+  width: 100%;
+}
+.MyBookingsTable .Bottom table thead {
+  width: 100%;
+}
+.MyBookingsTable .Bottom table thead .TableHead {
+  width: 100%;
+  margin-left: -70px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.MyBookingsTable .Bottom table thead .TableHead .Icon {
+  width: 0px;
+}
+.MyBookingsTable .Bottom table tbody {
+  cursor: pointer;
+  width: 100%;
+}
+.MyBookingsTable .Bottom table tbody .TableBody {
+  margin-top: 8px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24.131px 0px 27.147px;
+}
+.MyBookingsTable .Bottom table tbody .TableBody td {
+  text-align: right;
+  color: var(--colors-black-100, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .Booking {
+  width: 120px;
+  text-align: left;
+  margin-left: -90px;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .Refid {
+  width: 50px;
+  text-align: left;
+  margin-left: -110px;
+  text-align: left;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .BookingDate {
+  display: flex;
+  width: 240px;
+  text-align: left;
+  margin-left: -40px;
+  align-items: center;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .PaymentAmount {
+  width: 90px;
+  text-align: left;
+  margin-left: -100px;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .PlumberName {
+  margin-right: -45px;
+}
+.MyBookingsTable .Bottom table tbody .TableBody .LinkedBookingDetails {
+  text-decoration: none;
+  color: unset !important;
+}/*# sourceMappingURL=MyBookingsTable.css.map */

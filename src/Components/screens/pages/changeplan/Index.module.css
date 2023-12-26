@@ -1,0 +1,198 @@
+.ChangePlanContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+}
+.ChangePlan {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin: 3rem 1rem;
+}
+.ChangePlanText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ChangePlanContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  
+}
+.ChangePlanContentDripContainer {
+  display: flex;
+  padding: 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  align-self: stretch;
+  border-radius: 4px;
+  border-top: 4px solid #7edbef;
+  background: #fff;
+}
+.ChangePlanContentDripHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.ChangePlanContentDripHeaderContainerTitle {
+  color: #000;
+  font-family: Figtree;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ChangePlanContentDripHeaderContainerText {
+  color: #646464;
+  text-align: center;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ChangePlanContentDripHeaderContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+.ChangePlanContentDripHeaderContentAmount {
+  color: #000;
+  font-family: Figtree;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ChangePlanContentDripHeaderContentTTD {
+  color: #b3b3b3;
+  font-family: Figtree;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ChangePlanContentDripChoosePlanButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #4d8bff;
+  color: #fff;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border: none;
+}
+.ChangePlanContentDripListContainer {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.ChangePlanContentDripListContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.ChangePlanContentDripListContentText {
+  color: #222a3f;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%;
+  letter-spacing: -0.16px;
+}
+.ChangePlanContentTrickleContainer {
+  display: flex;
+  padding: 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  align-self: stretch;
+  border-radius: 4px;
+  border-top: 4px solid #2b4e8e;
+  background: #fff;
+}
+.ChangePlanContentSplashContainer {
+  display: flex;
+  padding: 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  border-radius: 4px;
+  border-top: 4px solid #e95a5a;
+  background: #fff;
+}
+.ChangePlanContentSplashChoosePlanButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #000;
+  font-family: Figtree;
+  border-radius: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border: none;
+}
+
+.ChangePlanContentSplashChoosePlanButtonActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.ChangePlanContentSplashChoosePlanButtonLine {
+  width: 280px;
+  height: 1px;
+  background: #ededed;
+}
+.ChangePlanContentSplashChoosePlanButtonActiveContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+.ChangePlanContentSplashChoosePlanButtonActiveContainerText {
+  color: #727272;
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ChangePlanContentSplashChoosePlanButtonActiveContainerDate {
+  color: #000;
+  text-align: center;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

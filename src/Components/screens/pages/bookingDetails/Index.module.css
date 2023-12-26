@@ -1,0 +1,124 @@
+.BookingDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+}
+.BookingDetailsContainerTitle {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.BookingDetailsContent {
+  display: inline-flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  background: #fff;
+}
+.BookingDetailsConformationNumberAndServiceContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.BookingDetailsConformationNumberContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+.BookingDetailsConformationNumberContentHeader {
+  color: #8b8f94;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.BookingDetailsConformationNumberContentValue {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.BookingDetailsTimeLineContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 50%;
+}
+.BookingDetailsTimeLineContentText {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.BookingDetailsTimeLineContentTimeAndDate {
+  color: #8b8f94;
+  font-family: "Figtree";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.BookingDetailsTimeLineAndCancelContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.BookingDetailsCancelContainer {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #fcfcfd;
+}
+.BookingDetailsCancelContainerText {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.BookingDetailsCancelContainerTextContent {
+  color: #525252;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  width: 288px;
+}
+.BookingDetailsCancelContainerButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #c6c6c6;
+  color: #000;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; 
+}

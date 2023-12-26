@@ -1,0 +1,119 @@
+.Booking{
+    padding: 24px;
+
+    .Top{
+        .HeadTextBooking{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .HeadText{
+                p{
+                    color: #000;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .AddButton{
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    height: 48px;
+                    width: 152px;
+                    border-radius: 8px;
+                    background: #222;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    border:none !important;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .Center{
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+
+        .Cards{
+            margin-top: 28px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+
+            .One{
+                display: flex;
+                height: 495px;
+                padding: 32px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+                flex: 1 0 0;
+                border-radius: 8px;
+                background: #FFF;
+
+                .Top{
+                    display: flex;
+                    height: 294px;
+                    padding: 101.5px 0px;
+                    justify-content: center;
+                    align-items: center;
+                    align-self: stretch;
+                    border-radius: 8px;
+                    background: #F5F6F8;
+                }
+
+                .Bottom{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 16px;
+                    align-self: stretch;
+
+                    .Popup{
+                        width: 998px;
+                    }
+
+                    .HeadText{
+                        color: #000;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+
+                    .Paragraph{
+                        color: #676767;
+                        font-family: Figtree;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                    }
+
+                    .BookingArrow{
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        color: #000;
+                        font-family: Figtree;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                }
+            }
+        }
+    }
+}
+.MuiBox-root.css-1wnsr1i{
+    width: 998px;
+}

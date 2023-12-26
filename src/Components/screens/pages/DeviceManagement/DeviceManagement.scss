@@ -1,0 +1,116 @@
+.DeviceManagement{
+    max-width: 100%;
+    padding: 24px;
+    .Top{
+
+        .HeadTextAddButton{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+
+            .HeadText{
+                p{
+                    color: #000;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .AddButton{
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    color: #fff;
+                    width: 152px;
+                    background: #222;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    border-radius: 8px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .Bottom{
+        margin-top: 30px;
+        width: 100%;
+
+
+        table{
+            width: 100%;
+
+            thead{
+                width: 100%;
+
+
+                .TableHead{
+                    width:100%;
+                    display: flex;
+                    justify-content: space-between;
+                    color:  #000;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+
+                    .Icon{
+                        width: 0px;
+                    }
+                }
+            }
+            tbody{
+                cursor: pointer;
+                width: 100%;
+
+                .TableBody{
+                    margin-top: 8px;
+                    height: 80px;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 24.131px 0px 27.147px;
+
+                    td{
+                        text-align: right;
+                        color: var(--colors-black-100, #000);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    .TankName{
+                        margin-left: -90px;
+                    }
+                    .Status{
+                        width: 70px;
+                        margin-left: -80px;
+                    }
+                    .WaterLevel{
+                        margin-left: -35px;
+                    }
+                    .LastRefill{
+                        margin-left: -30px;
+                    }
+                    .NextMaintenence{
+                        margin-left: -40px;
+                    }
+                    .LastUpdated{
+                        margin-right: -50px;
+                    }
+                }
+            }
+        }
+
+    }
+}

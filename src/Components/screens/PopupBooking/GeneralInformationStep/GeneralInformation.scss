@@ -1,0 +1,87 @@
+.Form{
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+
+    .FirstNameLastName{
+        display: flex;
+        gap: 16px;
+        .FirstName{
+            margin-top: 10px;
+            
+        }
+        .LastName{
+            margin-top: 10px;
+        }
+    }
+
+    .PhoneDropdown{
+        margin-top: 16px;
+        display: flex;
+        gap: 16px;
+        .PhoneNumber{
+            margin-top: 10px;
+            input{
+                height: 49px;
+                width: 408px;
+                border-radius: 8px;
+                border: 1px solid var(--neutrals-100, #ECF0F4);
+                background: var(--neutrals-50, #F8FAFC);
+                
+            }
+        }
+        .Dropdown{
+            margin-top: 10px;
+            input{
+                height: 56px;
+                width: 443px;
+                border-radius: 8px;
+                border: 1px solid var(--neutrals-100, #ECF0F4);
+                background: var(--neutrals-50, #F8FAFC);
+            }
+        }
+    }
+    .Address{
+        margin-top: 16px;
+        gap: 16px;
+
+        .AddressInput{
+            margin-top: 10px;
+            
+        }
+    }
+}
+
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before,.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: none !important;
+}
+
+.css-1k19kol-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.css-1k19kol-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.css-1k19kol-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input{
+    width: 371px;
+    height: 27px;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root{
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    background-color: #F8FAFC !important;
+}
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 8px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color: none !important;
+}
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input , .css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+    background-color: #F8FAFC !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:after,.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:before,.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root{
+    border-bottom: none !important;
+}

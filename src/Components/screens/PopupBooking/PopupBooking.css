@@ -1,0 +1,292 @@
+.PopupBooking {
+  width: 998px;
+  height: 632px;
+  align-items: center;
+  gap: 64px;
+}
+.PopupBooking .PreNexButton {
+  display: "fllex";
+  margin-top: 45px;
+  margin-left: 70%;
+}
+
+.FirstNameLastName {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.PhoneNumberDropdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
+}
+.PhoneNumberDropdown .PhoneNumber {
+  height: 54px;
+  width: 445px;
+  border-radius: 8px;
+  border: 1px solid var(--neutrals-100, #ECF0F4);
+  background: var(--neutrals-50, #F8FAFC);
+}
+.PhoneNumberDropdown .Dropdown {
+  height: 56px !important;
+}
+
+.AddressContainer {
+  margin-top: 16px;
+}
+.AddressContainer .Address {
+  margin-top: 10px;
+}
+.AddressContainer .DateTimePicker {
+  display: flex;
+  flex-direction: row;
+}
+
+.DateTimePicker {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.DateTimePicker .DatePicker .Date {
+  margin-top: 24px;
+}
+.DateTimePicker .TimePicker .MrngAfnEvn {
+  margin-top: 24px;
+}
+.DateTimePicker .TimePicker .MrngAfnEvn .Morning {
+  margin-top: 24px;
+}
+.DateTimePicker .TimePicker .MrngAfnEvn .Afternoon {
+  margin-top: 24px;
+}
+.DateTimePicker .TimePicker .MrngAfnEvn .Evening {
+  margin-top: 24px;
+}
+
+.AddressandStatus {
+  margin-top: 36px;
+  display: flex;
+  width: 794px;
+  align-items: center;
+  gap: 24px;
+}
+.AddressandStatus .Address {
+  min-width: 568px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--neutrals-100, #ECF0F4);
+  background: var(--neutrals-50, #F8FAFC);
+}
+.AddressandStatus .Address .AddressData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.AddressandStatus .Address .AddressData button {
+  margin-top: 24px;
+  display: flex;
+  height: 44px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--neutrals-200, #CAD4DE);
+  background-color: #F8FAFC;
+}
+.AddressandStatus .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  position: relative;
+}
+.AddressandStatus .frame .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+.AddressandStatus .frame .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+.AddressandStatus .frame .ellipse {
+  background-color: #7edbef;
+  border-radius: 10px;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+.AddressandStatus .frame .vector {
+  height: 6px;
+  left: 5px;
+  position: absolute;
+  top: 7px;
+  width: 10px;
+}
+.AddressandStatus .frame .line {
+  height: 25.5px;
+  position: relative;
+  width: 1.5px;
+}
+.AddressandStatus .frame .ellipse-2 {
+  border: 1.5px solid;
+  border-color: #bdc3cb;
+  border-radius: 10px;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+.AddressandStatus .frame .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.AddressandStatus .frame .div-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+.AddressandStatus .frame .text-wrapper {
+  color: #000000;
+  font-family: "Figtree-Regular", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.AddressandStatus .frame .text-wrapper-2 {
+  color: #8b8f94;
+  font-family: "Figtree-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.MuiStepConnector-root.MuiStepConnector-horizontal.Mui-disabled.css-j5w0w9-MuiStepConnector-root, .MuiStepConnector-root.MuiStepConnector-horizontal.Mui-active.css-j5w0w9-MuiStepConnector-root, .MuiStepConnector-root.MuiStepConnector-horizontal.Mui-completed.css-j5w0w9-MuiStepConnector-root {
+  display: none !important;
+}
+
+.MuiStepper-root.MuiStepper-horizontal.css-m5vj9m-MuiStepper-root {
+  justify-content: space-evenly;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before, .css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: none !important;
+}
+
+input#\:r1\: {
+  margin-top: 13px;
+}
+
+.MuiPhoneNumber-flagButton {
+  margin-left: 12px !important;
+  margin-top: 12px !important;
+}
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 8px !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root {
+  background-color: #F8FAFC !important;
+  border: 1px solid #ECF0F4;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:before {
+  border-bottom: none !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:after {
+  border-bottom: none !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root {
+  border-bottom-left-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 1px solid #ECF0F4 !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedStart.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #F8FAFC !important;
+}
+
+.css-9mc7sf-MuiInputAdornment-root.MuiInputAdornment-positionStart.css-9mc7sf-MuiInputAdornment-root:not(.MuiInputAdornment-hiddenLabel) {
+  margin-top: 0px !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root {
+  height: 57px;
+}
+
+.css-1k19kol-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+  padding-top: 10px !important;
+}
+
+.css-1rv8zyt-MuiStack-root > :not(style):not(style) {
+  background-color: #F8FAFC !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button.MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--neutrals-100, #ECF0F4);
+}
+
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: #4D8BFF !important;
+  color: #fff !important;
+}/*# sourceMappingURL=PopupBooking.css.map */

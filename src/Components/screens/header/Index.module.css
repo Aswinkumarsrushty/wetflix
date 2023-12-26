@@ -1,0 +1,208 @@
+.HeaderMainContainer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid  #E9EDF2;
+}
+.HeaderWelComeText {
+  color: #154F9E;
+  font-family: "Figtree";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.HeaderWelComeProfileContainer {
+  display: flex;
+  align-items: center;
+  width: 17%;
+  justify-content: space-between;
+}
+.HeaderWelComeProfileNotification {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.666px 2.917px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-neutral-300, #e3e8ed);
+}
+.HeaderWelComeProfileTimeAndDay {
+  width: 121px;
+  display: flex;
+  margin: 0.5rem;
+  height: 44px;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #edeff3;
+  color: #0f1624;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.DropDownHeaderMainContainerContent {
+  position: absolute;
+  z-index: 99;
+  right: 2%;
+  top: 15%;
+  width: auto;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.07);
+}
+
+.DropDownHeaderMainContainer {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 24px 64px 0px rgba(0, 0, 0, 0.15);
+}
+.DropDownHeaderMainContainerHeader {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.HeaderPageNotificationCart {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.HeaderPageNotificationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.HeaderPageNotificationDetailsHeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.HeaderPageNotificationDetailsHeaderContentMyTank {
+  color: #4a4a4a;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.HeaderPageNotificationDetailsHeaderContentMyTankLevel {
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.HeaderPageNotificationDetailsDescription {
+  width: 432px;
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.HeaderPageNotificationCartTime {
+  color: #a5a5a5;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.HeaderPageNotificationCartButton {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+}
+.HeaderPageNotificationCartButtonText {
+  color: #4d8bff;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; 
+}
+.HeaderViewLink{
+  text-decoration: none !important;
+  color: unset !important;
+}
+/* mobile responsive css */
+.MobileResponsiveHeaderContent{
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.MobileResponsiveHeaderContainer{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MobileResponsiveHeaderContainerImage{
+  width: 50%;
+}
+.MobileResponsiveHeaderContainerUserNameContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MobileResponsiveHeaderContainerUserName{
+  color: #181C20;
+  font-family: "Figtree";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  align-items: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .HeaderMainContainer{
+    display: none;
+  }
+  .MobileResponsiveHeaderContent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+    
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  .HeaderMainContainer{
+    display: none;
+  }
+  .MobileResponsiveHeaderContent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .MobileResponsiveHeaderContainerImage{
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .HeaderMainContainer{
+    display: black;
+  }    
+}
